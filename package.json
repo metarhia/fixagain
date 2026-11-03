@@ -1,0 +1,31 @@
+{
+  "name": "fixagain",
+  "version": "0.0.0",
+  "author": "Timur Shemsedinov <timur.shemsedinov@gmail.com>",
+  "license": "MIT",
+  "description": "Metarhia linter",
+  "keywords": [
+    "metarhia",
+    "linter"
+  ],
+  "main": "main.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tshemsedinov/fixagain.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tshemsedinov/fixagain/issues",
+    "email": "timur.shemsedinov@gmail.com"
+  },
+  "homepage": "https://github.com/tshemsedinov",
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/tshemsedinov"
+  },
+  "scripts": {
+    "test": "npm run lint && node --test"
+  }
+}
